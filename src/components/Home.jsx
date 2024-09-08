@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import HeroImage from "../assets/hero.png";
+import HeroImage from "../assets/aero.gif";
 import Button from "./Button";
 export default function Home() {
   const [value, setValue] = useState("$500 - $10,000");
@@ -11,8 +11,9 @@ export default function Home() {
       </div>
       <div className="content">
         <div className="info">
-          <h1>It's Time To</h1>
-          <h1>Explore The World</h1>
+          <h1>Planning a trip?</h1>
+          <h1>Let our chatbot  </h1>
+          <h1>skip the lines for you </h1>
           <Button text="Plan Your Trip" />
         </div>
         <div className="planner">
@@ -37,7 +38,7 @@ export default function Home() {
               />
             </div>
             <div className="row">
-              <Button text="Discover More" />
+              <Button text="Start Booking" />
             </div>
           </form>
         </div>

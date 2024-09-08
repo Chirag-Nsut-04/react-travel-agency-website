@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import lighthouse from "../assets/lighthouse.png";
+import lighthouse from "../assets/color.gif";
 import { BiWorld } from "react-icons/bi";
 import { BsHeadphones, BsPerson } from "react-icons/bs";
 export default function Offer() {
   const data = [
     {
-      text: "Best Travel Guide Always for your Services",
+      text: "Book tickets instantly through our smart chatbot, no apps or waiting needed.",
       icon: <BsPerson />,
       color: "red",
     },
     {
-      text: "World Class Services Provided For You",
+      text: "Multi-language support for a seamless booking experience",
       icon: <BiWorld />,
       color: "green",
     },
@@ -28,7 +28,7 @@ export default function Offer() {
       </div>
       <div className="content">
         <div className="title">
-          <h1>We are Offering in Total 793 Tours Across the World</h1>
+          <h1>Save Hours, Skip the Lines—Chat with Our Bot and Book Your Tickets Instantly!</h1>
         </div>
         <ul className="list">
           {data.map(({ text, icon, color }) => {

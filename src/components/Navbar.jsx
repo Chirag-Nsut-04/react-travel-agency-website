@@ -4,7 +4,7 @@ import { BsPerson } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { IoSearchOutline } from "react-icons/io5";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/planes.png";
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const html = document.querySelector("html");

@@ -24,7 +24,6 @@ export default function Footer() {
         <div className="col">
           <div className="brand">
             <div className="logo">
-              <img src={logo} alt="logo" />
             </div>
             <p className="desciption">
               You can dream, create, design, and build the most wonderful place.
@@ -32,13 +31,7 @@ export default function Footer() {
           </div>
           <ul>
             <li>
-              <span> +0213 456 987 </span>
-            </li>
-            <li>
-              <span>kishansheth21@gmail.com</span>
-            </li>
-            <li>
-              <span>www.youtube.com</span>
+              <span> +91 8888888888 </span>
             </li>
           </ul>
         </div>
@@ -68,7 +61,7 @@ export default function Footer() {
       </div>
       <div className="lower-footer">
         <span>
-          Copyright &copy; Travel. Designed by <a href="#">Kishan Sheth</a>
+          Copyright &copy; Travel. Designed by <a href="#">CircuitalChixx</a>
         </span>
       </div>
     </Container>

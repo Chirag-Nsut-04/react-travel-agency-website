@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import service1 from "../assets/service1.png";
 import service2 from "../assets/service2.png";
-import service3 from "../assets/service3.png";
+import service3 from "../assets/bot.png";
 import service4 from "../assets/service4.png";
 export default function Services() {
   const data = [
@@ -13,12 +13,12 @@ export default function Services() {
     },
     {
       image: service2,
-      title: "Explore the Place",
+      title: "Search The Flights",
       description: "Lorem Ipsum is simply dummy text of the printing setting",
     },
     {
       image: service3,
-      title: "Start Your Journey",
+      title: "Book Tickets With Chatbot",
       description: "Lorem Ipsum is simply dummy text of the printing setting",
     },
     {
